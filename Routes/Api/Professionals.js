@@ -1,11 +1,12 @@
 import ProfessionalController from "../../Controllers/Http/ProfessionalController.js";
 import AuthMiddleware from "../../Middlewares/AuthMiddleware.js";
+import GeneralMiddlewares from "../../Middlewares/GeneralMiddlewares.js"
 
 export default [
   {
     method: "get",
     route: "/professionals",
-    middleware: AuthMiddleware.AuthMiddleware,
+    middleware: GeneralMiddlewares.GeneralMiddleware,
     controller: ProfessionalController.GetProfessinals,
   },
   {
