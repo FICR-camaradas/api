@@ -25,6 +25,14 @@ var UserSchema = new Schema({
     type: Number,
     default: 0,
   },
+  professionalArea: {
+    type: String,
+    default: "",
+  },
+  description: {
+    type: String,
+    default: "",
+  },
   telephone: {
     type: String,
     default: "",

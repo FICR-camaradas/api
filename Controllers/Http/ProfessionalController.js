@@ -6,6 +6,8 @@ const FildsToSelect = {
   name: 1,
   email: 1,
   professional: 1,
+  professionalArea: 1,
+  description: 1,
   telephone: 1,
   state: 1,
   city: 1,
